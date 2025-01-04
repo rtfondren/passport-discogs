@@ -1,6 +1,8 @@
-import OAuth1Strategy, { Strategy } from "passport-oauth1";
-
-import { type StrategyOptions, type VerifyFunction } from "passport-oauth1";
+import {
+  Strategy,
+  type StrategyOptions,
+  type VerifyFunction,
+} from "passport-oauth1";
 
 import {
   DISCOGS_STRATEGY_NAME,

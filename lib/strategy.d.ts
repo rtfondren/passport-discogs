@@ -1,5 +1,4 @@
-import { Strategy } from "passport-oauth1";
-import { type StrategyOptions, type VerifyFunction } from "passport-oauth1";
+import { Strategy, type StrategyOptions, type VerifyFunction } from "passport-oauth1";
 /**
  * Strategy instance constructor
  *
