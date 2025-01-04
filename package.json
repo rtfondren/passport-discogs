@@ -1,0 +1,39 @@
+{
+  "name": "passport-discogs",
+  "version": "1.0.0",
+  "description": "[Passport](https://github.com/jaredhanson/passport) strategy for authenticating with [Discogs](https://www.discogs.com/) using the OAuth 1.0a API",
+  "main": "./lib",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtfondren/passport-discogs.git"
+  },
+  "keywords": [
+    "passport",
+    "discogs",
+    "oauth"
+  ],
+  "author": "Taylor Fondren <rtfondren@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtfondren/passport-discogs/issues"
+  },
+  "homepage": "https://github.com/rtfondren/passport-discogs#readme",
+  "dependencies": {
+    "passport-oauth1": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/passport-oauth1": "git://github.com/rtfondren/types-passport-oauth1.git",
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.0"
+  }
+}
