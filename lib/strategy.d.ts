@@ -1,4 +1,4 @@
-import { Strategy, type StrategyOptions, type VerifyFunction } from "passport-oauth1";
+import OAuthStrategy, { type StrategyOptions, type VerifyFunction } from "passport-oauth1";
 /**
  * Strategy instance constructor
  *
@@ -52,7 +52,7 @@ import { Strategy, type StrategyOptions, type VerifyFunction } from "passport-oa
  *       }
  *     ));
  */
-export declare class DiscogsStrategy extends Strategy {
+export declare class DiscogsStrategy extends OAuthStrategy.Strategy {
     name: string;
     constructor(options: StrategyOptions, verify: VerifyFunction);
 }

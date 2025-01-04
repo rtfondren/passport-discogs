@@ -1,5 +1,4 @@
-import {
-  Strategy,
+import OAuthStrategy, {
   type StrategyOptions,
   type VerifyFunction,
 } from "passport-oauth1";
@@ -67,7 +66,7 @@ import {
  *     ));
  */
 
-export class DiscogsStrategy extends Strategy {
+export class DiscogsStrategy extends OAuthStrategy.Strategy {
   name: string;
 
   constructor(options: StrategyOptions, verify: VerifyFunction) {
