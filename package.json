@@ -8,6 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "url": "https://github.com/rtfondren/passport-discogs/issues"
   },
   "homepage": "https://github.com/rtfondren/passport-discogs#readme",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "passport-oauth1": "^1.3.0"
   },
